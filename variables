@@ -1,0 +1,17 @@
+#Create variables to store:
+#Your name, age, and favorite color.
+#Temperature in Celsius and convert it to Fahrenheit.
+#The result of multiplying two numbers and dividing another pair of numbers.
+name= input("enter name")
+age= input("enter age")
+fav_color= input("enter favourite color")
+celsius= float("enter temperature in celsius")
+fahrenheit= (1.8*celsius)+32
+num1= int("enter a number")
+num2= int("enter a number")
+print("my name is ",name)
+print("I am "+ age +"years old.")
+print("my favourite color is ",fav_color)
+print("celsius to fahrenheit",celsius,fahrenheit)
+print(num1*num2)
+print(num1/num2)
